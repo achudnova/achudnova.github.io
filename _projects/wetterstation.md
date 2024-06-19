@@ -1,7 +1,17 @@
 ---
-title: "Wetterstation"
+title: "So baust du deine eigene Wetterstation!"
 excerpt: "Short description of wetterstation<br/><img src='/images/500x300.png'>"
 collection: projects
 ---
 
-This is an item in your projects. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+In diesem Projekt zeige ich dir, wie du mit einem Raspberry Pi Pico und einem DHT11 Sensor eine einfache Wetterstation bauen kannst. Diese Wetterstation wird in der Lage sein, Temperatur und Luftfeuchtigkeit zu messen. Legen wir los!
+
+## Das brauchst du:
+Um Deine eigene Messstation zu entwerfen, benötigst Du nur wenige Bauteile. Die meisten findest Du im Baumarkt oder kannst sie ganz einfach im Internet bestellen. 
+
+- Raspberry Pi Pico
+- DHT11 Sensor
+- Breadboard
+- Jumper-Kabel
+- USB-Kabel zum Verbinden des Mikrocontrollers mit dem Computer
+- Python und Thonny IDE
