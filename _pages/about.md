@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-![Illustration](/images/...png){: .align-right width="300px"}
+<!-- ![Illustration](/images/...png){: .align-right width="300px"} -->
 I'm a student
 
 I'm interested in...
