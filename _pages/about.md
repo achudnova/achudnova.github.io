@@ -8,11 +8,9 @@ redirect_from:
 ---
 
 <!-- ![Illustration](/images/...png){: .align-right width="300px"} -->
-I'm a student
 
-I'm interested in...
+💻 I'm a student passionate about computer science, machine learning, and technology.
 
-I'm currently working towards my Master's Thesis in the field of Machine Learning
+🎹 Music is another passion of mine, and I enjoy playing the piano in my free time.
 
-I am also interested in assisting others on their path
-
+🌿 Explore my site to learn more about my projects and interests!
