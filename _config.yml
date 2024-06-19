@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Alina's Homepage"
+title                    : "🏠 Alina's Homepage"
 title_separator          : "-"
 name                     : &name "Alina Chudnova"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "yt-logo1.png"
   name             : "Alina Chudnova"
   pronouns         : # example: "she/her"  
-  bio              : # "Short biography for the left-hand sidebar"
+  bio              : "Student"
   location         : "Berlin, Germany"
   employer         : # "Red Brick University"
   uri              : # URL
