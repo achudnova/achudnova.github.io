@@ -1,7 +1,8 @@
 ---
-title: "So baust du deine eigene Wetterstation!"
-excerpt: "Short description of wetterstation<br/><img src='../images/anemometer.jpg'>"
-collection: projects
+title: 'So baust du deine eigene Wetterstation!'
+date: 2024-06-20
+permalink: /posts/2024-06-19-wetterstation.md/
+tags:
 ---
 
 <!-- Image source for anemometer
