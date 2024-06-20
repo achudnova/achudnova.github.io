@@ -30,7 +30,7 @@ Um Deine eigene Messstation zu entwerfen, benötigst Du nur wenige Bauteile. Die
   - GND des Sensors (schwarzes Kabel) an GND des Pico
   - SIG(Data) des Sensors an GP3 (zum Beispiel)
 
-![alt text](../images/hardware-pico.png)
+![Hardware](../images/hardware-pico.png)
 
 ## Schritt 2: Programmierung
 
@@ -43,7 +43,6 @@ Um Deine eigene Messstation zu entwerfen, benötigst Du nur wenige Bauteile. Die
 Erstelle ein neues Python-Skript in der Thonny IDE und füge den folgenden Code ein:
 
 ```py
-
 from dht import DHT11
 import dht
 import machine
