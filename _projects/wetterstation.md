@@ -30,7 +30,7 @@ Um Deine eigene Messstation zu entwerfen, benötigst Du nur wenige Bauteile. Die
   - GND des Sensors (schwarzes Kabel) an GND des Pico
   - SIG(Data) des Sensors an GP3 (zum Beispiel)
 
-![Hardware](../images/hardware-pico.png)
+![Raspberry Pi](../images/hardware-pico.png)
 
 ## Schritt 2: Programmierung
 
