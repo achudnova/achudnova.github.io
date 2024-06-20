@@ -31,7 +31,7 @@ Um Deine eigene Messstation zu entwerfen, benötigst Du nur wenige Bauteile. Die
   - SIG(Data) des Sensors an GP3 (zum Beispiel)
 
 ![Raspberry Pi](../images/hardware-pico.png)
-![test](../images/500x300.png)
+![test-image](../images/500x300.png)
 
 ## Schritt 2: Programmierung
 
@@ -39,7 +39,7 @@ Um Deine eigene Messstation zu entwerfen, benötigst Du nur wenige Bauteile. Die
 
 > Falls du Thonny IDE noch nicht installiert hast, folge dieser Anleitung.
 > 
-> Gehe auf diese Website und installiere dir zunächst die Entwicklungsumgebung, also das Programm, wo wir den Code schreiben werden: https://thonny.org/
+> Gehe auf diese Website und installiere dir zunächst die Entwicklungsumgebung, also das Programm, wo wir den Code schreiben werden: [Thonny](https://thonny.org/)
 
 Erstelle ein neues Python-Skript in der Thonny IDE und füge den folgenden Code ein:
 
