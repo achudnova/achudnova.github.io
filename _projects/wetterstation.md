@@ -31,6 +31,7 @@ Um Deine eigene Messstation zu entwerfen, benötigst Du nur wenige Bauteile. Die
   - SIG(Data) des Sensors an GP3 (zum Beispiel)
 
 ![Raspberry Pi](../images/hardware-pico.png)
+![test](../images/500x300.png)
 
 ## Schritt 2: Programmierung
 
