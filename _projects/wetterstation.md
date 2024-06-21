@@ -14,7 +14,7 @@ DHT11 Sensor eine einfache Wetterstation bauen kannst. Diese Wetterstation wird 
 
 Um Deine eigene Messstation zu entwerfen, benötigst Du nur wenige Bauteile. Die meisten findest Du im Baumarkt oder kannst sie ganz einfach im Internet bestellen.
 
-- Raspberry Pi Pico
+- Raspberry Pi Pico W
 - DHT11 Sensor
 - Breadboard
 - Jumper-Kabel
@@ -30,8 +30,7 @@ Um Deine eigene Messstation zu entwerfen, benötigst Du nur wenige Bauteile. Die
   - GND des Sensors (schwarzes Kabel) an GND des Pico
   - SIG(Data) des Sensors an GP3 (zum Beispiel)
 
-![Schaltplan des Aufbaus](../images/hardware-pico.png)
-![test-image](../images/500x300.png)
+![Schaltplan des Aufbaus](/images/hardware-pico.png)
 
 ## Schritt 2: Programmierung
 
@@ -39,7 +38,7 @@ Um Deine eigene Messstation zu entwerfen, benötigst Du nur wenige Bauteile. Die
 
 > Falls du Thonny IDE noch nicht installiert hast, folge dieser Anleitung.
 > 
-> Gehe auf diese Website und installiere dir zunächst die Entwicklungsumgebung, also das Programm, wo wir den Code schreiben werden: [Thonny](https://thonny.org/)
+> Gehe auf diese [Website](https://thonny.org/) und installiere dir zunächst die Entwicklungsumgebung, also das Programm, wo wir den Code schreiben werden.
 
 Erstelle ein neues Python-Skript in der Thonny IDE und füge den folgenden Code ein:
 
@@ -50,11 +49,14 @@ import machine
 import time
 
 sensor = dht.DHT11(machine.Pin(3))
-measurement = sensor.measure()
 
 while True:
-    print(sensor.temperature(), sensor.humidity())
-    time.sleep(2)
+  sensor.measure()
+  temp = sensor.temperature()
+  hum = sensor.humidity()
+  print('Temperatur:', temp, '°C')
+  print('Luftfeuchtigkeit:', hum, '%')
+  time.sleep(2)
 ```
 
 Speichere das Skript und lade es auf den Raspberry Pi Pico hoch.
