@@ -1,0 +1,82 @@
+---
+title: "So baust du deine eigene Wetterstation!"
+excerpt: "Short description of wetterstation<br/><img src='../images/anemometer.jpg'>"
+collection: projects
+---
+
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>So baust du deine eigene Wetterstation!</title>
+</head>
+
+<body>
+    <article>
+        <header>
+            <h1>So baust du deine eigene Wetterstation!</h1>
+            <!-- <p>Short description of wetterstation<br /><img src="../images/anemometer.jpg" alt="Anemometer"></p> -->
+        </header>
+
+        <section>
+            <p>In diesem Projekt zeige ich dir, wie du mit einem Raspberry Pi Pico und einem DHT11 Sensor eine einfache Wetterstation bauen kannst. Diese Wetterstation wird in der Lage sein, Temperatur und Luftfeuchtigkeit zu messen.</p>
+
+            <h2>Das brauchst du:</h2>
+            <p>Um Deine eigene Messstation zu entwerfen, benötigst Du nur wenige Bauteile. Die meisten findest Du im Baumarkt oder kannst sie ganz einfach im Internet bestellen.</p>
+            <ul>
+                <li>Raspberry Pi Pico</li>
+                <li>DHT11 Sensor</li>
+                <li>Breadboard</li>
+                <li>Jumper-Kabel</li>
+                <li>USB-Kabel zum Verbinden des Mikrocontrollers mit dem Computer</li>
+                <li>Python und Thonny IDE</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Schritt 1: Hardware vorbereiten</h2>
+            <ul>
+                <li>Raspberry Pi Pico und DHT11 verbinden</li>
+                <li>Schließe den DHT11 Sensor an das Steckbrett an</li>
+                <li>Verbinde die Juper-Kabel wie folgt:
+                    <ul>
+                        <li>VCC des DHT11 Sensors (rotes Kabel) an 3V3(OUT) des Pico</li>
+                        <li>GND des Sensors (schwarzes Kabel) an GND des Pico</li>
+                        <li>SIG(Data) des Sensors an GP3 (zum Beispiel)</li>
+                    </ul>
+                </li>
+            </ul>
+            <img src="../images/hardware-pico.png" alt="Schaltplan des Aufbaus"  width="500" height="300">
+            <img src="../images/500x300.png" alt="Test Image">
+        </section>
+
+        <section>
+            <h2>Schritt 2: Programmierung</h2>
+            <p>Öffne die Thonny IDE und installiere die benötigte Bibliothek für den DHT11 Sensor. Dies kannst du in der Thonny IDE über das Menü "Tools" -> "Manage Packages" -> "dht" tun.</p>
+            <blockquote>
+                <p>Falls du Thonny IDE noch nicht installiert hast, folge dieser Anleitung.</p>
+                <p>Gehe auf diese Website und installiere dir zunächst die Entwicklungsumgebung, also das Programm, wo wir den Code schreiben werden: <a href="https://thonny.org/" target="_blank">Thonny</a></p>
+            </blockquote>
+            <p>Erstelle ein neues Python-Skript in der Thonny IDE und füge den folgenden Code ein:</p>
+            <pre><code>
+from dht import DHT11
+import dht
+import machine
+import time
+
+sensor = dht.DHT11(machine.Pin(3))
+measurement = sensor.measure()
+
+while True:
+    print(sensor.temperature(), sensor.humidity())
+    time.sleep(2)
+            </code></pre>
+            <p>Speichere das Skript und lade es auf den Raspberry Pi Pico hoch.</p>
+            <p>Öffne den Serial Monitor in der Thonny IDE, um die gemessenen Werte für Temperatur und Luftfeuchtigkeit anzuzeigen.</p>
+        </section>
+    </article>
+</body>
+
+</html>
