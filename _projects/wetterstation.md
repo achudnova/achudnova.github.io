@@ -28,7 +28,7 @@ In diesem Projekt zeige ich dir, wie du mit einem Raspberry Pi Pico und einem DH
 
 Um deine eigene Messstation zu entwerfen, benötigst du nur wenige Bauteile. Die meisten findest du im Baumarkt oder kannst sie ganz einfach im Internet bestellen.
 
-- Raspberry Pi Pico W
+- Raspberry Pi Pico W (Ein Basic Kit ist z.B. [hier](https://www.amazon.de/GeeekPi-Raspberry-Pico-Basic-Kit/dp/B0BHQ8KT41/) erhältlich)
 - DHT11 Sensor (ist ein digitaler Temperatur- und Luftfeuchtigkietssensor)
 - Breadboard (Steckbrett)
 - Jumper-Kabel
