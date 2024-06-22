@@ -47,7 +47,8 @@ Der Raspberry Pi Pico W ist ein kleines, kostengünstiges Computer-Board. Es hat
 
 ### 1.2 Header-Pins anlöten
 
-Falls dein Raspberry Pi Pico W keine vorinstallierten Header-Pins hat, löte diese zunächst an. Verwende dazu einen Lötkolben und Lötzinn. Hier ist ein hilfreiches [Tutorial zum Löten](https://www.youtube.com/watch?v=R11QanPDccs).
+Falls dein Raspberry Pi Pico W keine vorinstallierten Header-Pins hat, löte diese zunächst an. Verwende dazu einen Lötkolben und Lötzinn. 
+> Hier ist ein hilfreiches [Tutorial zum Löten](https://www.youtube.com/watch?v=R11QanPDccs).
 
 Platziere die Header-Pins in die entsprechenden Löcher und erhitze die Pins, während zu das Lötzinn zuführst, bis die Verbindungen fest sind. (Achte darauf, dass die Pins gerade und gut verlötet sind!)
 
