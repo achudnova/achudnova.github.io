@@ -34,7 +34,7 @@ Um deine eigene Messstation zu entwerfen, benötigst du nur wenige Bauteile. Die
 - Jumper-Kabel
 - Header-Pins (falls noch nicht auf dem Pico W angelötet)
 - Lötstation oder Lötkolben (falls Header-Pins noch nicht angelötet sind)
-- USB-Kabel zum Verbinden des Mikrocontrollers mit dem Computer
+- USB-Kabel (USB-A auf Micro-USB) zum Verbinden des Mikrocontrollers mit dem Computer
 - Python und Thonny IDE
 
 ## Schritt 1: Hardware vorbereiten
@@ -62,6 +62,8 @@ Platziere die Header-Pins in die entsprechenden Löcher und erhitze die Pins, w�
   - SIG(Data) des Sensors (gelbes Kabel) an GP3
 
 ![Schaltplan des Aufbaus](/images/hardware-pico.png)
+
+Verbinde anschließend den Raspberry Pi Pico W über ein USB-Kabel (Typ A auf Micro USB) mit deinem Computer. Dieses Kabel wird verwendet, um den Mikrocontroller mit Strom zu versorgen und die Kommunikation zwischen dem Mikrocontroller und deinem Computer zu ermöglichen.
 
 ## Schritt 2: Software einrichten
 
