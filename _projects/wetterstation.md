@@ -93,9 +93,11 @@ while True:
 
 ### 3.1 Code-Erklärung:
 
-- (Die ersten 4 Zeilen) **Bibliotheken einbinden**: Zu Beginn werden die notwendigen Bibliotheken importiert.
-- (Zeile 6) **Sensor initialisieren**: Hier sagen wir der Library welchen Pin wir für den Sensor nutzen möchten.
-- (Ab Zeile 8) **while-Schleife**: In der Schleife wird die Messung kontinuierlich durchgeführt, die gemessenen Werte für Temperatur und Luftfeuchtigkeit ausgelesen und in der Konsole angezeigt. Die Schleife pausiert dann für 2 Sekunden, bevor die nächste Messung beginnt.
+- **Bibliotheken einbinden** (Die ersten 4 Zeilen): Zu Beginn werden die notwendigen Bibliotheken importiert.
+
+- **Sensor initialisieren** (Zeile 6): Hier sagen wir der Library welchen Pin wir für den Sensor nutzen möchten.
+
+- **while-Schleife** (Ab Zeile 8): In der Schleife wird die Messung kontinuierlich durchgeführt, die gemessenen Werte für Temperatur und Luftfeuchtigkeit ausgelesen und in der Konsole angezeigt. Die Schleife pausiert dann für 2 Sekunden, bevor die nächste Messung beginnt.
 
 ### 3.2 Skript speichern und hochladen
 
