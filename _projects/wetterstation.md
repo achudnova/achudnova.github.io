@@ -65,7 +65,7 @@ Platziere die Header-Pins in die entsprechenden Löcher und erhitze die Pins, w�
 
 Verbinde anschließend den Raspberry Pi Pico W über ein USB-Kabel (Typ A auf Micro USB) mit deinem Computer. Dieses Kabel wird verwendet, um den Mikrocontroller mit Strom zu versorgen und die Kommunikation zwischen dem Mikrocontroller und deinem Computer zu ermöglichen.
 
-![Aufbau](/imgaes/aufbau.png)
+![Aufbau](/images/aufbau.png)
 
 ## Schritt 2: Software einrichten
 
