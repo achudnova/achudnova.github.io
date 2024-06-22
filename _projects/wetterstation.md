@@ -43,10 +43,13 @@ Um deine eigene Messstation zu entwerfen, benötigst du nur wenige Bauteile. Die
 
 Der Raspberry Pi Pico W ist ein kleines, kostengünstiges Computer-Board. Es hat einen Mikrocontroller, der wie ein kleines Gehirn funktioniert, und es hat WLAN, damit es sich mit dem Internet verbinden kann. Du kannst es leicht programmieren, um verschiedene Aufgaben auszuführen, wie zum Beispiel unsere Wetterstation zu betreiben.
 
+> Weitere wichtige Informationen und detaillierte Anweisungen zur Vorbereitung des Raspberry Pi Pico W findest zu auf dieser [Website](https://projects.raspberrypi.org/en/projects/get-started-pico-w/1).
+
 ### 1.2 Header-Pins anlöten
 
--  Falls dein Raspberry Pi Pico W keine vorinstallierten Header-Pins hat, löte diese zunächst an. Verwende dazu einen Lötkolben und Lötzinn.
--  Platziere die Header-Pins in die entsprechenden Löcher und erhitze die Pins, während zu das Lötzinn zuführst, bis die Verbindungen fest sind. (Achte darauf, dass die Pins gerade und gut verlötet sind!)
+Falls dein Raspberry Pi Pico W keine vorinstallierten Header-Pins hat, löte diese zunächst an. Verwende dazu einen Lötkolben und Lötzinn. Hier ist ein hilfreiches [Tutorial zum Löten](https://www.youtube.com/watch?v=R11QanPDccs).
+
+Platziere die Header-Pins in die entsprechenden Löcher und erhitze die Pins, während zu das Lötzinn zuführst, bis die Verbindungen fest sind. (Achte darauf, dass die Pins gerade und gut verlötet sind!)
 
 ### 1.3 Raspberry Pi Pico und DHT11 verbinden
 
@@ -95,7 +98,7 @@ while True:
 
 - **Bibliotheken einbinden** (Die ersten 4 Zeilen): Zu Beginn werden die notwendigen Bibliotheken importiert.
 
-- **Sensor initialisieren** (Zeile 6): Hier sagen wir der Library welchen Pin wir für den Sensor nutzen möchten.
+- **Sensor initialisieren** (Zeile 6): Hier sagen wir der Library welchen Pin wir für den Sensor nutzen möchten (GP3).
 
 - **while-Schleife** (Ab Zeile 8): In der Schleife wird die Messung kontinuierlich durchgeführt, die gemessenen Werte für Temperatur und Luftfeuchtigkeit ausgelesen und in der Konsole angezeigt. Die Schleife pausiert dann für 2 Sekunden, bevor die nächste Messung beginnt.
 
