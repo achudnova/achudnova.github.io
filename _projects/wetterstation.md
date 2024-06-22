@@ -61,3 +61,13 @@ while True:
 
 Speichere das Skript und lade es auf den Raspberry Pi Pico hoch.
 Öffne den Serial Monitor in der Thonny IDE, um die gemessenen Werte für Temperatur und Luftfeuchtigkeit anzuzeigen.
+
+---
+Dateien auf Raspberry Pi Pico speichern
+
+<img align="center" src="/images/speicherort.png">
+
+
+Plotter aktivieren / Diagramm funktion
+![Thonny](/images/thonny-drucken.png)
+![Übersicht](/images/thonny-plotter.png)
