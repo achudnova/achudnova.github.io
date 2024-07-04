@@ -58,6 +58,6 @@ Rathaus
 
 <audio controls>
     <source src="{{ '/assets/audio/audio-celina.mp3' | relative_url }}" type="audio/mpeg">
-    <source src="{{ '/assets/audio/audio-celina.mp3' | relative_url }}" type="audio/ogg">
+    <source src="{{ '/assets/audio/audio-celina.ogg' | relative_url }}" type="audio/ogg">
     Your browser does not support the audio element.
 </audio>
