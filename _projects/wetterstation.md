@@ -1,6 +1,6 @@
 ---
 title: "So baust du deine eigene Wetterstation!"
-excerpt: "Short description of wetterstation<br/><img src='../images/anemometer.jpg'>"
+excerpt: "<br/><img src='../images/anemometer.jpg'>"
 collection: projects
 ---
 
