@@ -29,6 +29,7 @@ collection: projects
 ## 2. Parc de Bruxelles
 
 ## 3. Kathedrale St. Michael & St. Gudula
+<audio controls src="/assets/audio/kathedrale.mp4">
 
 ## 4. Kongressplatz
 Kongress-Säule
@@ -40,6 +41,7 @@ Kongress-Säule
 ## 7. Zinneke Pis
 
 ## 8. Brüsseler Börse
+<audio controls src="/assets/audio/boerse.mp4">
 
 ## 9. Jeanneke Pis
 
@@ -51,28 +53,8 @@ Rathaus
 ## 12. Manneken Pis
 
 ## 13. Mont des Arts
+<audio controls src="/assets/audio/kunstberg.mp4">
 
 ## 14. Königsplatz (Koningsplein - Beeld van Godfried van Bouillon)
 
 ## 15. Église Notre-Dame des Victoires du Sablon
-
-<audio controls>
-    <source src="{{ '/assets/audio/audio-celina.mp3' | relative_url }}" type="audio/mpeg">
-    <source src="{{ '/assets/audio/audio-celina.ogg' | relative_url }}" type="audio/ogg">
-    Your browser does not support the audio element.
-</audio>
-
-
-<figure>
-  <figcaption>Listen to the T-Rex:</figcaption>
-  <audio controls src="/assets/audio/t-rex-roar.mp3"></audio>
-  <a href="/assets/audio/t-rex-roar.mp3"> Download audio </a>
-</figure>
-
-<figure>
-  <figcaption>Test:</figcaption>
-  <audio controls src="/assets/audio/test.mp4" type="audio/mpeg"></audio>
-  <a href="/assets/audio/test.mp4"> Download audio </a>
-</figure>
-
-<audio controls src="/assets/audio/test.mp4">
