@@ -71,6 +71,6 @@ Rathaus
 
 <figure>
   <figcaption>Test:</figcaption>
-  <audio controls src="/assets/audio/audio-celina.mp3"></audio>
+  <audio controls src="/assets/audio/audio-celina.mp3" preload="none"></audio>
   <a href="/assets/audio/audio-celina.mp3"> Download audio </a>
 </figure>
