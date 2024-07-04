@@ -68,3 +68,9 @@ Rathaus
   <audio controls src="/media/cc0-audio/t-rex-roar.mp3"></audio>
   <a href="/media/cc0-audio/t-rex-roar.mp3"> Download audio </a>
 </figure>
+
+<figure>
+  <figcaption>Test:</figcaption>
+  <audio controls src="/assets/audio/audio-celina.mp3"></audio>
+  <a href="/assets/audio/audio-celina.mp3"> Download audio </a>
+</figure>
