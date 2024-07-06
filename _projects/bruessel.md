@@ -1,5 +1,5 @@
 ---
-title: "<span style="color:orange">Stadtrundgang in Brüssel</span>"
+title: "Stadtrundgang in Brüssel"
 excerpt: "Kursfahrt Brüssel 2024<br/><img src='../images/belgium.jpg'>"
 collection: projects
 ---
