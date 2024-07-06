@@ -37,11 +37,11 @@ beschreibung + audio
 
 ## 4. Kongressplatz
 
-beschreibung + audio
+<audio controls src="/assets/audio/kongressplatz.m4a"></audio>
 
 ## 5. Place des Martyrs
 
-beschreibung + audio
+<audio controls src="/assets/audio/placeMartyrs.m4a"></audio>
 
 ## 6. Église Sainte-Catherine
 
