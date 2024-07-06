@@ -6,9 +6,9 @@ collection: projects
 
 ![Karte](/images/karte.png)
 
-- [1. Palais de Bruxelles](#1-palais-de-bruxelles)
+<!-- - [1. Palais de Bruxelles](#1-palais-de-bruxelles)
 - [2. Parc de Bruxelles](#2-parc-de-bruxelles)
-- [3. Kathedrale St. Michael \& St. Gudula](#3-kathedrale-st-michael--st-gudula)
+- [3. Kathedrale St. Michael und St. Gudula](#3-kathedrale-st-michael-und-st-gudula)
 - [4. Kongressplatz](#4-kongressplatz)
 - [5. Place des Martyrs](#5-place-des-martyrs)
 - [6. Église Sainte-Catherine](#6-église-sainte-catherine)
@@ -20,7 +20,7 @@ collection: projects
 - [12. Manneken Pis](#12-manneken-pis)
 - [13. Mont des Arts](#13-mont-des-arts)
 - [14. Königsplatz (Koningsplein - Beeld van Godfried van Bouillon)](#14-königsplatz-koningsplein---beeld-van-godfried-van-bouillon)
-- [15. Église Notre-Dame des Victoires du Sablon](#15-église-notre-dame-des-victoires-du-sablon)
+- [15. Église Notre-Dame des Victoires du Sablon](#15-église-notre-dame-des-victoires-du-sablon) -->
 
 
 ## 1. Palais de Bruxelles
@@ -31,7 +31,7 @@ audio
 
 <audio controls src="/assets/audio/parcBrussel.m4a"></audio>
 
-## 3. Kathedrale St. Michael & St. Gudula
+## 3. Kathedrale St. Michael und St. Gudula
 
 <audio controls src="/assets/audio/kathedrale.mp4"></audio>
 
