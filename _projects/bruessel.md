@@ -42,7 +42,7 @@ audio
 
 <audio controls src="/assets/audio/jannekepis.m4a"></audio>
 
-## 10.Galerie Royales
+## 10. Galerie Royales
 
 <audio controls src="/assets/audio/galeriesroyales.m4a"></audio>
 
