@@ -4,7 +4,7 @@ excerpt: "Kursfahrt Brüssel 2024<br/><img src='../images/belgium.jpg'>"
 collection: projects
 ---
 
-![Karte](/images/karte-bruessel.png)
+![Karte](/images/karte.png)
 
 - [1. Palais de Bruxelles](#1-palais-de-bruxelles)
 - [2. Parc de Bruxelles](#2-parc-de-bruxelles)
