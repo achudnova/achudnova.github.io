@@ -25,11 +25,11 @@ collection: projects
 
 ## 1. Palais de Bruxelles
 
-beschreibung + audio
+audio
 
 ## 2. Parc de Bruxelles
 
-beschreibung + audio
+<audio controls src="/assets/audio/parcBrussel.m4a"></audio>
 
 ## 3. Kathedrale St. Michael & St. Gudula
 
@@ -45,11 +45,11 @@ beschreibung + audio
 
 ## 6. Église Sainte-Catherine
 
-beschreibung + audio
+audio
 
 ## 7. Zinneke Pis
 
-beschreibung + audio
+<audio controls src="/assets/audio/zinnekepis.m4a"></audio>
 
 ## 8. Brüsseler Börse
 
@@ -61,7 +61,7 @@ beschreibung + audio
 
 ## 10.Galerie Royales
 
-beschreibung + audio
+<audio controls src="/assets/audio/galeriesroyales.m4a"></audio>
 
 ## 11. Grote Markt
 
@@ -69,7 +69,7 @@ beschreibung + audio
 
 ## 12. Manneken Pis
 
-beschreibung + audio
+audio
 
 ## 13. Mont des Arts
 
@@ -77,8 +77,8 @@ beschreibung + audio
 
 ## 14. Königsplatz (Koningsplein - Beeld van Godfried van Bouillon)
 
-beschreibung + audio
+audio
 
 ## 15. Église Notre-Dame des Victoires du Sablon
 
-beschreibung + audio
+<audio controls src="/assets/audio/églisenotredame.m4a"></audio>
