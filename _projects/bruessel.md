@@ -26,7 +26,7 @@ collection: projects
 
 <audio controls src="/assets/audio/placeMartyrs.m4a"></audio>
 
-## 6. Église Sainte-Catherine
+## 6. Église Sainte-Catherine (Glockenturm)
 
 <audio controls
 src="/assets/audio/EliseSaintCatherine.m4a"></audio>
