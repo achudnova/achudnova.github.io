@@ -8,7 +8,7 @@ collection: projects
 
 ## 1. Palais de Bruxelles
 
-audio
+<audio controls src="/assets/audio/KöniglicherPalast.m4a"></audio>
 
 ## 2. Parc de Bruxelles
 
@@ -28,7 +28,8 @@ audio
 
 ## 6. Église Sainte-Catherine
 
-audio
+<audio controls
+src="/assets/audio/EliseSaintCatherine.m4a"></audio>
 
 ## 7. Zinneke Pis
 
@@ -52,7 +53,7 @@ audio
 
 ## 12. Manneken Pis
 
-audio
+<audio controls src="/assets/audio/MannekinPis.m4a"></audio>
 
 ## 13. Mont des Arts
 
@@ -60,7 +61,7 @@ audio
 
 ## 14. Königsplatz (Koningsplein - Beeld van Godfried van Bouillon)
 
-audio
+<audio controls src="/assets/audio/Königsplatz.m4a"></audio>
 
 ## 15. Église Notre-Dame des Victoires du Sablon
 
